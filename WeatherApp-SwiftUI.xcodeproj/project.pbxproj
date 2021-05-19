@@ -11,6 +11,7 @@
 		BE71C1222638598A002BB2C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71C1212638598A002BB2C3 /* ContentView.swift */; };
 		BE71C1242638598D002BB2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE71C1232638598D002BB2C3 /* Assets.xcassets */; };
 		BE71C1272638598D002BB2C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE71C1262638598D002BB2C3 /* Preview Assets.xcassets */; };
+		BE71C13026388271002BB2C3 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71C12F26388271002BB2C3 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BE71C1232638598D002BB2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE71C1262638598D002BB2C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE71C1282638598D002BB2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE71C12F26388271002BB2C3 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				BE71C11F2638598A002BB2C3 /* WeatherApp_SwiftUIApp.swift */,
-				BE71C1212638598A002BB2C3 /* ContentView.swift */,
+				BE71C12F26388271002BB2C3 /* WeatherButton.swift */,
 				BE71C1232638598D002BB2C3 /* Assets.xcassets */,
 				BE71C1282638598D002BB2C3 /* Info.plist */,
 				BE71C1252638598D002BB2C3 /* Preview Content */,
@@ -64,6 +66,7 @@
 		BE71C1252638598D002BB2C3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				BE71C1212638598A002BB2C3 /* ContentView.swift */,
 				BE71C1262638598D002BB2C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -140,6 +143,7 @@
 			files = (
 				BE71C1222638598A002BB2C3 /* ContentView.swift in Sources */,
 				BE71C1202638598A002BB2C3 /* WeatherApp_SwiftUIApp.swift in Sources */,
+				BE71C13026388271002BB2C3 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
